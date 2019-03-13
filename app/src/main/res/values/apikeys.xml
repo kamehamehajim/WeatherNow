@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mapbox_access_token">pk.eyJ1Ijoia2FtZWhhbWVoYWppbSIsImEiOiJjanQxZGQzb2MxNDlnM3lwaHIxMmYwMGI1In0.YdaifXNAWKxAUW7M0ZpnNg</string>
+    <string name="open_weather_api_key">58af87ae3546aa52ecfe5dbfcca774a2</string>
+</resources>

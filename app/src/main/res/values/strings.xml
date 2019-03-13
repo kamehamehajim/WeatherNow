@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherNow</string>
+
+    <string name="location_rationale_dialog_title">Location permission</string>
+    <string name="location_rationale_dialog_message">Please grant location permission to check weather in your area</string>
+    <string name="location_rationale_dialog_ok">OK, I understand</string>
+    <string name="location_rationale_dialog_no">No, don\'t bother me</string>
+    <string name="progress_message">Getting location and weather data</string>
+    <string name="weather_cloudiness">Cloudiness: %d %%</string>
+    <string name="weather_temperature">Temperature: %.1f °C</string>
+    <string name="weather_pressure">Pressure: %.1f mmHg</string>
+    <string name="weather_humidity">Humidity: %d %%</string>
+    <string name="weather_wind">Wind: %s %.1f m/s</string>
+    <string name="weather_location">lat: %.5f lon: %.5f</string>
+
+</resources>
