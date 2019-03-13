@@ -49,6 +49,15 @@ public class MainPresenter implements MainContract.EventListener {
         mView.showProgress(true);
         mView.getCurrentLocation();
 
+        subscribeLocations();
+    }
+
+    @Override
+    public void onPermissionDenied() {
+        subscribeLocations();
+    }
+
+    private void subscribeLocations() {
         Observable<LocationParams> locationParamsObservable = mLocationSubject
                 .distinctUntilChanged()
                 .debounce(1000, TimeUnit.MILLISECONDS)
@@ -75,11 +84,6 @@ public class MainPresenter implements MainContract.EventListener {
                         Timber::e
                 );
         mDisposables.add(d);
-    }
-
-    @Override
-    public void onPermissionDenied() {
-
     }
 
     @Override

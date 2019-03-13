@@ -16,8 +16,7 @@
         android:layout_width="10dp"
         android:layout_height="10dp"
         android:layout_gravity="center"
-        android:background="@drawable/bg_target"
-        android:visibility="invisible" />
+        android:background="@drawable/bg_target" />
 
     <com.example.weatherapp.presentation.main.view.WeatherCardView
         android:id="@+id/weather_card_view"
